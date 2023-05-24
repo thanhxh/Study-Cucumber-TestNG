@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
         features = "src/test/resources/features/Login/LoginCRM.feature",
         glue = {
                 "com.anhtester.stepdefinitions",
-                "com.anhtester.common"
+                "com.anhtester.common",
+                "com.anhtester.hooks"
         },
         plugin = {"pretty", "html:target/cucumber-html-report.html"}
 )

@@ -1,40 +1,12 @@
-[INFO] 05-05-2023 10:06:40 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-05-2023 10:53:22 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 10:53:22 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 10:53:22 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 10:55:14 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 10:55:14 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 10:55:14 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 11:38:43 [main] [LogUtils] - Open URL: https://crm.anhtester.com/login
-[INFO] 05-05-2023 11:38:43 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 11:38:43 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 11:38:44 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 11:52:59 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
-[INFO] 05-05-2023 11:52:59 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 11:52:59 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 11:53:01 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 11:55:05 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
-[INFO] 05-05-2023 11:55:05 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 11:55:05 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 11:55:07 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 16:25:17 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
-[INFO] 05-05-2023 16:25:17 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 16:25:17 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 16:25:19 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 16:28:19 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
-[INFO] 05-05-2023 16:28:19 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 16:28:19 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 16:28:21 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 16:28:21 [main] [LogUtils] - Verify equals: https://cms.anhtester.com/admin and https://cms.anhtester.com/admin
-[INFO] 05-05-2023 17:24:51 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-05-2023 17:24:51 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 17:24:51 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 17:24:52 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 17:24:52 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 05-05-2023 17:24:53 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 05-05-2023 17:25:15 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-05-2023 17:25:15 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-05-2023 17:25:15 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-05-2023 17:25:17 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-05-2023 17:25:17 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 05-05-2023 17:25:18 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
+[INFO] 22-05-2023 14:26:55 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 22-05-2023 14:26:55 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-05-2023 14:26:55 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-05-2023 14:26:56 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-05-2023 14:31:34 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 22-05-2023 14:31:34 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-05-2023 14:31:34 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-05-2023 14:31:36 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 22-05-2023 14:42:07 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 22-05-2023 14:42:07 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 22-05-2023 14:42:07 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 22-05-2023 14:42:09 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
