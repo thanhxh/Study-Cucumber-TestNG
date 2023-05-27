@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 import static com.anhtester.keywords.WebUI.*;
 
-public class LoginPage {
+public class LoginCRMPage {
     //Khai báo Objects
     private By inputEmail = By.xpath("//input[@id='email']");
     private By inputPassword = By.xpath("//input[@id='password']");

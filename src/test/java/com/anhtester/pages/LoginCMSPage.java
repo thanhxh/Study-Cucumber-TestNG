@@ -29,7 +29,7 @@ public class LoginCMSPage {
         clickElement(buttonLogin);
     }
     public CommonPage loginAdminRole() {
-        BaseTest.createDriver();
+
         openURL(PropertiesHelpers.getValue("URL"));
         setText(inputEmail, PropertiesHelpers.getValue("EMAIL"));
         setText(inputPassword, PropertiesHelpers.getValue("PASSWORD"));
