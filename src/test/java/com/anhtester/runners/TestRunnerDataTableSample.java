@@ -11,13 +11,7 @@ import org.testng.annotations.Test;
                 "com.anhtester.common",
                 "com.anhtester.hooks"
         },
-        plugin = {
-                "com.anhtester.hooks.CucumberListener",
-                "pretty",
-                "html:target/cucumber-reports/TestRunnerDataTableSample.html",
-                "json:target/cucumber-reports/TestRunnerDataTableSample.json",
-                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-        },
+        plugin = {"pretty", "html:target/cucumber-html-report.html"},
         tags = ""
 )
 @Test
