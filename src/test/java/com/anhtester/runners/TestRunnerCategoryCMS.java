@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 @CucumberOptions(
-        features = "src/test/resources/features/Categories",
+        features = "src/test/resources/features/Category/CategoryCMS.feature",
         glue = {"com.anhtester.stepdefinitions",
                 "com.anhtester.common",
                 "com.anhtester.hooks"
@@ -17,10 +17,10 @@ import org.testng.annotations.Test;
 )
 @Test
 public class TestRunnerCategoryCMS extends AbstractTestNGCucumberTests {
-        //Parallel Execution Scenario
-        @Override
-        @DataProvider(parallel = true)
-        public Object[][] scenarios() {
-                return super.scenarios();
-        }
+    //Parallel Execution Scenario
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }

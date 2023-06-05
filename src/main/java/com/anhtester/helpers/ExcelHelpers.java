@@ -16,16 +16,16 @@ import java.util.Map;
 
 public class ExcelHelpers {
 
-    private FileInputStream fis;
+    private static FileInputStream fis;
     private FileOutputStream fileOut;
-    private Workbook workbook;
-    private Sheet sheet;
+    private static Workbook workbook;
+    private static Sheet sheet;
     private Cell cell;
     private Row row;
     private CellStyle cellstyle;
     private Color mycolor;
     private String excelFilePath;
-    private Map<String, Integer> columns = new HashMap<>();
+    private static Map<String, Integer> columns = new HashMap<>();
 
     public void setExcelFile(String ExcelPath, String SheetName) {
         try {

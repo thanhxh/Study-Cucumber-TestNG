@@ -23,6 +23,10 @@ public class CommonStepDefinitions {
         commonPage = testContext.getCommonPage();
         loginCMSPage = testContext.getLoginCMSPage();
     }
+    @Given("user logged in as an admin")
+    public void userLoggedInAsAnAdmin() {
+        loginCMSPage.loginAdminRole();
+    }
 
     @Given("user logged in the CMS system with {string} role")
     public void userLoggedInTheCMSSystemWithRole(String roleName) {

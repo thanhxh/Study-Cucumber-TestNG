@@ -33,19 +33,6 @@ public class WebUI {
         PropertiesHelpers.loadAllFiles();
     }
 
-    public static void verifyElementVisible(By by) {
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-        System.out.println("Verify " + by + " is displayed");
-        Assert.assertTrue(DriverManager.getDriver().findElement(by).isDisplayed(), "Element not visible.");
-    }
-
-    public static void verifyElementVisible(By by, String message) {
-        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
-        System.out.println("Verify " + by + " is displayed");
-        Assert.assertTrue(DriverManager.getDriver().findElement(by).isDisplayed(), message);
-    }
 
     public static void sleep(double second) {
         try {
@@ -66,6 +53,23 @@ public class WebUI {
     public static List<WebElement> getWebElements(By by) {
         return DriverManager.getDriver().findElements(by);
     }
+
+    @Step("Verify Element Visible: {0}")
+    public static void verifyElementVisible(By by) {
+        waitForPageLoaded();
+        waitForElementVisible(by);
+        LogUtils.info("Verify " + by + " is displayed");
+        Assert.assertTrue(getWebElement(by).isDisplayed(), "Element not visible.");
+    }
+
+    @Step("Verify Element Visible: {0} and displayed : {1}")
+    public static void verifyElementVisible(By by, String message) {
+        waitForPageLoaded();
+        waitForElementVisible(by);
+        LogUtils.info("Verify " + by + " is displayed");
+        Assert.assertTrue(getWebElement(by).isDisplayed(), message);
+    }
+
 
     @Step("Verify Equals: {0} and {1}")
     public static void verifyEquals(Object actual, Object expected) {
