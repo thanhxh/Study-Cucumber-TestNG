@@ -145,3 +145,33 @@
 [INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
 [INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Get text: Invalid login credentials
 [INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
+[INFO] 06-06-2023 17:07:05 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:07 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (83e1ec4065550f2df7b500e568e8876f)
+[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
+[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
+[INFO] 06-06-2023 17:07:39 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:41 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (bfda0071d7984c51a3136d75c9771225)
+[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
+[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123

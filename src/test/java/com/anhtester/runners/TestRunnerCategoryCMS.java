@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 
         },
         plugin = {
+                "com.anhtester.hooks.CucumberListener",
                 "pretty",
                 "html:target/cucumber-reports/TestRunnerCategoryCMS.html",
                 "json:target/cucumber-reports/TestRunnerCategoryCMS.json",

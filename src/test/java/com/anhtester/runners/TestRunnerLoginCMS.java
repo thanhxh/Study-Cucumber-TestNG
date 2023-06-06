@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
                 "com.anhtester.hooks"
         },
         plugin = {
+                "com.anhtester.hooks.CucumberListener",
                 "pretty",
                 "html:target/cucumber-reports/TestRunnerLoginCMS.html",
                 "json:target/cucumber-reports/TestRunnerLoginCMS.json",
