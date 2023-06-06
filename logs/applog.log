@@ -1,365 +1,147 @@
-[INFO] 27-05-2023 11:12:38 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:12:38 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:12:41 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (bcb8d590f907cc5f4474351641acd9da)
-[INFO] 27-05-2023 11:12:41 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (ac0e909fa0ca2447bdad5e42fc3f713a)
-[INFO] 27-05-2023 11:12:43 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:12:44 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:12:44 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:12:44 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:12:44 [TestNG-PoolService-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:12:44 [TestNG-PoolService-1] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:12:45 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-1] [LogUtils] - Set text: Anh Tester on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:12:47 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Set text: ABAP on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Set text: 79 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Set text: Qalb on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Set text: Lou Zar on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:12:48 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:12:49 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:12:49 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[ERROR] 27-05-2023 11:13:07 [TestNG-PoolService-1] [LogUtils] - Timeout waiting for the element Visible. By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:13:36 [main] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:13:37 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (ebc875bde608fe4d295b79ee49804263)
-[INFO] 27-05-2023 11:13:39 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:13:39 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:13:39 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:13:40 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:13:40 [main] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:13:40 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:13:42 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:13:42 [main] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Set text: Assembly language on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Set text: 64 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Set text: Fjölnir on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Set text: Candice B. Fureal on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:13:43 [main] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:13:44 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:13:44 [main] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:13:45 [main] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:13:45 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (6aac75d7f287cc1db09283fe60e6f03f)
-[INFO] 27-05-2023 11:13:47 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:13:47 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:13:47 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:13:48 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:13:48 [main] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:13:48 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:13:52 [main] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:13:52 [main] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:13:53 [main] [LogUtils] - Set text: Anh Tester on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:13:53 [main] [LogUtils] - Update the Category existing
-[ERROR] 27-05-2023 11:14:13 [main] [LogUtils] - Timeout waiting for the element Visible. By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:16:38 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:16:38 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:16:40 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (3807faac1d4a08371834b1181ecaf22b)
-[INFO] 27-05-2023 11:16:40 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (179e51e3f387471458acec56e61ac636)
-[INFO] 27-05-2023 11:16:42 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:16:43 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:16:43 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:16:43 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:16:43 [TestNG-PoolService-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:16:43 [TestNG-PoolService-1] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:16:44 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:16:45 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:16:45 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:16:45 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:16:45 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-1] [LogUtils] - Set text: Anh Tester on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Set text: Lisaac on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Set text: 84 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Set text: Perl 6 on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Set text: Al Gore Rythim on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:16:46 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:16:47 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:16:47 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:16:47 [TestNG-PoolService-0] [LogUtils] - Get text: Category has been inserted successfully
-[ERROR] 27-05-2023 11:17:06 [TestNG-PoolService-1] [LogUtils] - Timeout waiting for the element Visible. By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:17:37 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:17:37 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:17:39 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (77ebf97bc0ac899337ebb70c2dc018db)
-[INFO] 27-05-2023 11:17:39 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (575cb6047b85520ca16468b16659f636)
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:17:42 [TestNG-PoolService-1] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:17:43 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:17:45 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:17:45 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:17:45 [TestNG-PoolService-1] [LogUtils] - Set text: Anh Tester on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:17:45 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:17:46 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:17:46 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:17:46 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:17:47 [TestNG-PoolService-0] [LogUtils] - Set text: TMG, compiler-compiler on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:17:47 [TestNG-PoolService-0] [LogUtils] - Set text: 12 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:17:47 [TestNG-PoolService-0] [LogUtils] - Set text: Pipelines on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:17:47 [TestNG-PoolService-0] [LogUtils] - Set text: Pearl E. Gates on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:17:47 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:17:48 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:17:48 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:17:48 [TestNG-PoolService-0] [LogUtils] - Get text: Category has been inserted successfully
-[ERROR] 27-05-2023 11:18:05 [TestNG-PoolService-1] [LogUtils] - Timeout waiting for the element Visible. By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:25:32 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:25:32 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:33 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (4a0b8b1e553b3b7bf15d9c3dcafd7451)
-[INFO] 27-05-2023 11:25:33 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (9edf0d8be1896c5481eedaa9cf3ed06a)
-[INFO] 27-05-2023 11:25:35 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:25:36 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:25:36 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:25:36 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:25:36 [TestNG-PoolService-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:25:36 [TestNG-PoolService-1] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:37 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:25:38 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:25:38 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Set text: GM on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Set text: 56 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Set text: Mystic Programming Language (MPL) on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Set text: Lynn Guini on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:25:39 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:25:40 [TestNG-PoolService-1] [LogUtils] - Set text: AUTOTESST on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:25:40 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:40 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:25:40 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:25:40 [TestNG-PoolService-0] [LogUtils] - Get text: Category has been inserted successfully
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Set text: Franz Lisp on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Set text: 54 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Set text: QPL on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Set text: Armand Hammer on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:25:41 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:42 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:25:42 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:25:42 [TestNG-PoolService-1] [LogUtils] - Get text: Category has been updated successfully
-[INFO] 27-05-2023 11:27:36 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:36 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:27:38 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (16ed079c14a49c6307f0a43644656af0)
-[INFO] 27-05-2023 11:27:38 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (79211e14674468cf52ee4e3ea269f7c7)
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-1] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:27:39 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:27:40 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-1] [LogUtils] - Set text: AUTOTESST on element By.xpath: //input[@id='search']
-[INFO] 27-05-2023 11:27:42 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Set text: Arc on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Set text: 56 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Set text: COWSEL on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Set text: Juan Morefore DeRhode on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:27:43 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: (//a[@title='Edit'])[1]
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-0] [LogUtils] - Add new Category
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Set text: Pig (programming tool) on element By.xpath: //input[@id='name']
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-0] [LogUtils] - Get text: Category has been inserted successfully
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Set text: 0 on element By.xpath: //input[@id='order_level']
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Set text: DataFlex on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Set text: Frank N. Beans on element By.xpath: //textarea[@name='meta_description']
-[INFO] 27-05-2023 11:27:44 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:45 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 27-05-2023 11:27:45 [TestNG-PoolService-1] [LogUtils] - Update the Category existing
-[INFO] 27-05-2023 11:27:45 [TestNG-PoolService-1] [LogUtils] - Get text: Category has been updated successfully
-[INFO] 05-06-2023 10:32:41 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:32:45 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (85142e79e006a23398c12a7511e6a090)
-[INFO] 05-06-2023 10:32:46 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:32:46 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:32:46 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:32:47 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 10:32:47 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 10:32:47 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:32:47 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:35:45 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:35:46 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (ae34a47e433ceac3facfed0bf5fed8fa)
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:35:48 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[ERROR] 05-06-2023 10:36:08 [TestNG-PoolService-0] [LogUtils] - Timeout waiting for the element Visible. By.xpath: //span[contains(@class,'avatar avatar-sm')]
-[INFO] 05-06-2023 10:37:51 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:37:53 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (1613742cf7b45c1ff58dfd3e59a4fd62)
-[INFO] 05-06-2023 10:37:54 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:37:54 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:37:54 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:37:55 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 10:37:55 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 10:37:55 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:37:56 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 10:37:56 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:37:56 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 10:52:07 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:07 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:09 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (5c9b4a7e3a53aa5b1044b1e338d55dd1)
-[INFO] 05-06-2023 10:52:09 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (77ac153d073367a7e2ad9845dfa13a1e)
-[INFO] 05-06-2023 10:52:10 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:52:10 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:52:10 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 10:52:11 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:12 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 10:52:12 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:12 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 10:52:45 [main] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:47 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (644837c2b1061e2e815590e83a1b8d64)
-[INFO] 05-06-2023 10:52:48 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:52:48 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:52:48 [main] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:49 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 10:52:49 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 10:52:49 [main] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:50 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 10:52:50 [main] [LogUtils] - Successful Login
-[INFO] 05-06-2023 10:52:50 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 10:52:50 [main] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:51 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (4f3a863a27d6adff0c5f0b00f93f6204)
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 10:52:52 [main] [LogUtils] - Invalid Login
-[INFO] 05-06-2023 12:44:45 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:47 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (b98730431a407fef069907945f42048e)
-[INFO] 05-06-2023 12:44:48 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 12:44:48 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 12:44:48 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 12:44:49 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 12:44:49 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:49 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 05-06-2023 12:44:50 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 05-06-2023 12:44:50 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:51 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 05-06-2023 12:44:51 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:52 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='name']
-[INFO] 05-06-2023 12:44:52 [TestNG-PoolService-0] [LogUtils] - Set text: 1 on element By.xpath: //input[@id='order_level']
-[INFO] 05-06-2023 12:44:52 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 05-06-2023 12:44:52 [TestNG-PoolService-0] [LogUtils] - Set text: Bánh kẹo on element By.xpath: //textarea[@name='meta_description']
-[INFO] 05-06-2023 12:44:52 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:53 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 05-06-2023 12:44:53 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:53 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[@data-notify='message'] is displayed
-[INFO] 05-06-2023 12:44:53 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 12:44:54 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='search']
-[INFO] 05-06-2023 12:44:54 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //tbody/tr[1]/td[2] is displayed
-[INFO] 05-06-2023 12:44:54 [TestNG-PoolService-0] [LogUtils] - Get text: Cake
-[INFO] 05-06-2023 12:44:54 [TestNG-PoolService-0] [LogUtils] - Verify equals: Cake and Cake
-[INFO] 05-06-2023 16:22:22 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 16:22:24 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (8c4ed8f3a25d16f57331b80b51c2e3b8)
-[INFO] 05-06-2023 16:22:25 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 16:22:25 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 16:22:25 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 16:22:25 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 16:22:25 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 16:22:26 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 16:22:26 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 16:22:26 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 16:22:28 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 16:22:28 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 16:22:28 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 17:00:24 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:00:25 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (3f6d1a58249b823333feba61a877505e)
-[INFO] 05-06-2023 17:00:26 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 17:00:27 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 17:00:27 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:00:27 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 17:00:27 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 17:00:28 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 17:00:28 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 17:00:28 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 17:00:29 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 17:00:29 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:00:29 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 17:14:57 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:14:59 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (1f89bb25ee54efdfdd2feedb8e073da3)
-[INFO] 05-06-2023 17:15:00 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 17:15:00 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 05-06-2023 17:15:00 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:15:00 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 17:15:00 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 17:15:01 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 17:15:01 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 17:15:01 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 17:15:02 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 17:15:02 [main] [LogUtils] - DataTable sample
-[INFO] 05-06-2023 17:15:02 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 05-06-2023 17:15:27 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:28 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on WINDOWS (b79f2c6077fcb1a7b0c461b1d4b2c2c8)
-[INFO] 05-06-2023 17:15:29 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 05-06-2023 17:15:29 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 05-06-2023 17:15:29 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 05-06-2023 17:15:30 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 05-06-2023 17:15:30 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:30 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 05-06-2023 17:15:32 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 05-06-2023 17:15:32 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='name']
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Set text: 1 on element By.xpath: //input[@id='order_level']
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Set text: Bánh kẹo on element By.xpath: //textarea[@name='meta_description']
-[INFO] 05-06-2023 17:15:33 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:34 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 05-06-2023 17:15:34 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:34 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[@data-notify='message'] is displayed
-[INFO] 05-06-2023 17:15:34 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 05-06-2023 17:15:35 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='search']
-[INFO] 05-06-2023 17:15:36 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //tbody/tr[1]/td[2] is displayed
-[INFO] 05-06-2023 17:15:36 [TestNG-PoolService-0] [LogUtils] - Get text: Cake
-[INFO] 05-06-2023 17:15:36 [TestNG-PoolService-0] [LogUtils] - Verify equals: Cake and Cake
+[INFO] 06-06-2023 10:50:56 [main] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:51:00 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (47c10753c09ca9a4977ed903b9cca264)
+[INFO] 06-06-2023 10:51:01 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 10:51:01 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 10:51:02 [main] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:51:02 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 10:51:03 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 10:51:03 [main] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
+[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:05 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (3e121da71b1032eedd10f6d52ee23cc3)
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:57 [TestNG-PoolService-1] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:51:57 [TestNG-PoolService-0] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:52:00 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (592ddf49512d825b3f48086993688c3f)
+[INFO] 06-06-2023 10:52:00 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0a7740610363249f2771e87fe3a43579)
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
+[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Successful Login
+[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
+[INFO] 06-06-2023 10:58:33 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 10:58:35 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (1fb3c155a018e6cbd7792e8c204efe32)
+[INFO] 06-06-2023 10:58:36 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 10:58:38 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:58:38 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 10:58:39 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:22 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:25 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (4a22a7d60d26a3aec11c49a03c209eb6)
+[INFO] 06-06-2023 11:52:26 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 11:52:26 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:34 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:34 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:35 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (80b98c049e618925f135372e68e929e7)
+[INFO] 06-06-2023 11:52:35 [TestNG-test=Run Gherkin-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (5af031946d24ade6d60a7b2a79a013a2)
+[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 11:52:37 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 11:52:37 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 11:52:38 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
+[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 11:52:39 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
+[INFO] 06-06-2023 11:52:39 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:40 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
+[INFO] 06-06-2023 11:52:40 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:42 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='name']
+[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: 1 on element By.xpath: //input[@id='order_level']
+[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@placeholder='Meta Title']
+[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: B�nh k?o on element By.xpath: //textarea[@name='meta_description']
+[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:44 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
+[INFO] 06-06-2023 11:52:44 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:45 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[@data-notify='message'] is displayed
+[INFO] 06-06-2023 11:52:45 [TestNG-PoolService-0] [LogUtils] - Add a new category
+[INFO] 06-06-2023 11:52:46 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='search']
+[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //tbody/tr[1]/td[2] is displayed
+[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Get text: Cake
+[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Verify equals: Cake and Cake
+[INFO] 06-06-2023 12:26:07 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:26:10 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (6bb831566583b5c6ccd2b95d592a059b)
+[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 12:26:13 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 12:26:14 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 12:26:14 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:56:12 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:56:16 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (75983ce79574e36959fdd14ad96fe318)
+[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 12:56:19 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 12:56:19 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 12:56:20 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
+[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
+[INFO] 06-06-2023 13:04:53 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 13:04:56 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0698c2b013173da7c0a435172ee46f04)
+[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 13:04:59 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
+[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
+[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123

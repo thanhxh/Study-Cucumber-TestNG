@@ -11,7 +11,13 @@ import org.testng.annotations.Test;
                 "com.anhtester.common",
                 "com.anhtester.hooks"
         },
-        plugin = {"pretty", "html:target/cucumber-html-report.html"}
+        plugin = {
+                "pretty",
+                "html:target/cucumber-reports/TestRunnerLoginCRM.html",
+                "json:target/cucumber-reports/TestRunnerLoginCRM.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        },
+        tags = ""
 )
 @Test
 public class TestRunnerLoginCRM extends AbstractTestNGCucumberTests {

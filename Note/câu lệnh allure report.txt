@@ -1,0 +1,4 @@
+Run nếu trong folder target: allure serve target/allure-results
+Run nếu không trong folder target: allure serve allure-results
+
+Khi không cần xem report nữa thì mình tắt Terminal đi với phím tắt Ctrl +C sau đó chọn Y (đồng ý tắt) và Enter

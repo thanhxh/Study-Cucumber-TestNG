@@ -11,8 +11,13 @@ import org.testng.annotations.Test;
                 "com.anhtester.common",
                 "com.anhtester.hooks"
         },
-        plugin = {"pretty", "html:target/cucumber-html-report.html"},
-        tags = "@SuccessfulLogin or @InvalidLogin"
+        plugin = {
+                "pretty",
+                "html:target/cucumber-reports/TestRunnerLoginCMS.html",
+                "json:target/cucumber-reports/TestRunnerLoginCMS.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        },
+        tags = "@InvalidLoginMultiple"
 )
 @Test
 public class TestRunnerLoginCMS extends AbstractTestNGCucumberTests {

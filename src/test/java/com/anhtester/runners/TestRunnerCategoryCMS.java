@@ -12,8 +12,13 @@ import org.testng.annotations.Test;
                 "com.anhtester.hooks"
 
         },
-        plugin = {"pretty", "html:target/cucumber-html-report.html"},
-        tags = ""
+        plugin = {
+                "pretty",
+                "html:target/cucumber-reports/TestRunnerCategoryCMS.html",
+                "json:target/cucumber-reports/TestRunnerCategoryCMS.json",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+        },
+        tags = "@AddCategory"
 )
 @Test
 public class TestRunnerCategoryCMS extends AbstractTestNGCucumberTests {
