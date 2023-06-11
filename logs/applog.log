@@ -1,177 +1,37 @@
-[INFO] 06-06-2023 10:50:56 [main] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:51:00 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (47c10753c09ca9a4977ed903b9cca264)
-[INFO] 06-06-2023 10:51:01 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 10:51:01 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 10:51:02 [main] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:51:02 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 10:51:03 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 10:51:03 [main] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 06-06-2023 10:51:04 [main] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:05 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (3e121da71b1032eedd10f6d52ee23cc3)
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:07 [main] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:57 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:51:57 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:52:00 [TestNG-PoolService-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (592ddf49512d825b3f48086993688c3f)
-[INFO] 06-06-2023 10:52:00 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0a7740610363249f2771e87fe3a43579)
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:52:01 [TestNG-PoolService-1] [LogUtils] - Invalid Login
-[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 10:52:02 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Successful Login
-[INFO] 06-06-2023 10:52:03 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[contains(@class,'avatar avatar-sm')] is displayed
-[INFO] 06-06-2023 10:58:33 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 10:58:35 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (1fb3c155a018e6cbd7792e8c204efe32)
-[INFO] 06-06-2023 10:58:36 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 10:58:37 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 10:58:38 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:58:38 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 10:58:39 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 10:58:40 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:22 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:25 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (4a22a7d60d26a3aec11c49a03c209eb6)
-[INFO] 06-06-2023 11:52:26 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 11:52:26 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 11:52:27 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 11:52:28 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:29 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:34 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:34 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:35 [TestNG-PoolService-0] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (80b98c049e618925f135372e68e929e7)
-[INFO] 06-06-2023 11:52:35 [TestNG-test=Run Gherkin-1] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (5af031946d24ade6d60a7b2a79a013a2)
-[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:36 [TestNG-PoolService-0] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 11:52:36 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 11:52:37 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 11:52:37 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 11:52:38 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Products']
-[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 11:52:38 [TestNG-test=Run Gherkin-1] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:39 [TestNG-test=Run Gherkin-1] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 11:52:39 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Category']
-[INFO] 06-06-2023 11:52:39 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:40 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //span[normalize-space()='Add New category']
-[INFO] 06-06-2023 11:52:40 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:42 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='name']
-[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: 1 on element By.xpath: //input[@id='order_level']
-[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@placeholder='Meta Title']
-[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Set text: Bánh k?o on element By.xpath: //textarea[@name='meta_description']
-[INFO] 06-06-2023 11:52:43 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:44 [TestNG-PoolService-0] [LogUtils] - Click element By.xpath: //button[normalize-space()='Save']
-[INFO] 06-06-2023 11:52:44 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:45 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //span[@data-notify='message'] is displayed
-[INFO] 06-06-2023 11:52:45 [TestNG-PoolService-0] [LogUtils] - Add a new category
-[INFO] 06-06-2023 11:52:46 [TestNG-PoolService-0] [LogUtils] - Set text: Cake on element By.xpath: //input[@id='search']
-[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Verify By.xpath: //tbody/tr[1]/td[2] is displayed
-[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Get text: Cake
-[INFO] 06-06-2023 11:52:47 [TestNG-PoolService-0] [LogUtils] - Verify equals: Cake and Cake
-[INFO] 06-06-2023 12:26:07 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:26:10 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (6bb831566583b5c6ccd2b95d592a059b)
-[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 12:26:12 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 12:26:13 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 12:26:14 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 12:26:14 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:26:15 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:56:12 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:56:16 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (75983ce79574e36959fdd14ad96fe318)
-[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 12:56:18 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 12:56:19 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 12:56:19 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 12:56:20 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
-[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Get text: Invalid login credentials
-[INFO] 06-06-2023 12:56:21 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
-[INFO] 06-06-2023 13:04:53 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 13:04:56 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0698c2b013173da7c0a435172ee46f04)
-[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 13:04:58 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 13:04:59 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 13:05:00 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
-[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Get text: Invalid login credentials
-[INFO] 06-06-2023 13:05:01 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
-[INFO] 06-06-2023 17:07:05 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:07 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (83e1ec4065550f2df7b500e568e8876f)
-[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 17:07:09 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 17:07:10 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
-[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Get text: Invalid login credentials
-[INFO] 06-06-2023 17:07:11 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
-[INFO] 06-06-2023 17:07:39 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:41 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (bfda0071d7984c51a3136d75c9771225)
-[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
-[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
-[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 17:07:42 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
-[INFO] 06-06-2023 17:07:43 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
-[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
-[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Invalid Login with multiple account
-[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
-[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Get text: Invalid login credentials
-[INFO] 06-06-2023 17:07:44 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
+[INFO] 11-06-2023 09:11:28 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:31 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-06-2023 09:11:31 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:31 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-06-2023 09:11:31 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-06-2023 09:11:31 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:33 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-06-2023 09:11:33 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:33 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:33 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:11:34 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (61f7a3a2121d174bb30f3f332a56c9c2)
+[INFO] 11-06-2023 09:13:35 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:38 [main] [LogUtils] - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 11-06-2023 09:13:38 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:38 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-06-2023 09:13:38 [main] [LogUtils] - Set text: 123456 on element By.xpath: //input[@id='password']
+[INFO] 11-06-2023 09:13:38 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:39 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-06-2023 09:13:39 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:40 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:40 [main] [LogUtils] - Successful login
+[INFO] 11-06-2023 09:13:40 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (71183bd77564b3a8e683599ceb6748de)
+[INFO] 11-06-2023 09:26:50 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 11-06-2023 09:26:52 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (742054d92b24b2690be596b588f08947)
+[INFO] 11-06-2023 09:26:53 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 11-06-2023 09:26:53 [main] [LogUtils] - Verify By.xpath: //p[normalize-space()='Login to your account.'] is displayed
+[INFO] 11-06-2023 09:26:53 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 11-06-2023 09:26:53 [main] [LogUtils] - Set text: user@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-06-2023 09:26:53 [main] [LogUtils] - Set text: 123 on element By.xpath: //input[@id='password']
+[INFO] 11-06-2023 09:26:54 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-06-2023 09:26:54 [main] [LogUtils] - Set text: admin@example.com on element By.xpath: //input[@id='email']
+[INFO] 11-06-2023 09:26:54 [main] [LogUtils] - Set text: 1234 on element By.xpath: //input[@id='password']
+[INFO] 11-06-2023 09:26:55 [main] [LogUtils] - Click element By.xpath: //button[normalize-space()='Login']
+[INFO] 11-06-2023 09:26:55 [main] [LogUtils] - Invalid Login with multiple account
+[INFO] 11-06-2023 09:26:55 [main] [LogUtils] - Verify By.xpath: //div[@role='alert'] is displayed
+[INFO] 11-06-2023 09:26:55 [main] [LogUtils] - Get text: Invalid login credentials
+[INFO] 11-06-2023 09:26:55 [main] [LogUtils] - Verify equals: Invalid login credentials and Invalid login credentials 123
