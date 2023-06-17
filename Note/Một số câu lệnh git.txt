@@ -1,0 +1,5 @@
+- Tạo branch: git checkout -b <tên thư mục>
+
+- Sau khi add . muốn quay về: git store --staged <tên file>
+
+- Merge branch vào main: git merge <tên thư mục của branch>
